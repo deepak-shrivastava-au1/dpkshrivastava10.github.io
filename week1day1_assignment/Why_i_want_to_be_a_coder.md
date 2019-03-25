@@ -1,0 +1,1 @@
+I want to be a coder because i love to utilise my reasoning and creative skills, designing and developing softwares always energige me . I also have been interested in learning computers and that is why my entire backgroud of study has been Computer. The best part is i never be tired of writing codes.
