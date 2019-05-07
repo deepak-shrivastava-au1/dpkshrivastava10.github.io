@@ -21,7 +21,7 @@ var validateInput = function(number) {
     }
 }
 
-var btn1 = document.getElementById("btn1"); 
+var btn1 = document.getElementById("push"); 
 
 var pushElements = function() {
     var number = getValue();
@@ -35,7 +35,7 @@ var pushElements = function() {
 
 btn1.addEventListener("click", pushElements);
 
-var btn2 = document.getElementById("btn2");
+var btn2 = document.getElementById("pop");
 
 var popElements = function() {
     if(stack.length == 0) {
