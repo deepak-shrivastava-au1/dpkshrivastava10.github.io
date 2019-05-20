@@ -19,19 +19,22 @@ var checkPrimeNumbers = function(n){
 
 var printPrimeNumbers = function(num){
 
-    var counter=0;
+    
     for( var i=1; i<=num; i++){
+
+        var counter=0;
 
         for(var j=1; j<=i; j++){
 
-            if(i%j == 0){
+            if(i % j == 0){
                 
                 counter = counter+1;
             }
         }
              if(counter == 2){
-                 console.log(i);
-        }
+                console.log(i);
+             }
+            
     }
 }
 
