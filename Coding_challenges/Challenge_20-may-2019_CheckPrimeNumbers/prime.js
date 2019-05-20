@@ -38,6 +38,31 @@ var printPrimeNumbers = function(num){
     }
 }
 
+var numberOfPrimeNumbers = function(a){
+var n=0;
+var number = a;
+for( var i=1; i<=number; i++){
+    var counter = 0;
+    for(var j=1; j<=i; j++){
+        if(i % j ==0){
+            counter++;
+        }
+    }
+    if(counter == 2){
+        console.log(i);
+        n++;
+    }
+    if(n ==a){
+        break;
+    }
+    else{
+        number++;
+    }
+}
+
+}
+
 
 console.log(checkPrimeNumbers(25));
 console.log(printPrimeNumbers(50));
+console.log(numberOfPrimeNumbers(50));
