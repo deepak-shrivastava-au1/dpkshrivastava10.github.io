@@ -41,6 +41,7 @@ var printPrimeNumbers = function(num){
 var numberOfPrimeNumbers = function(a){
 var n=0;
 var number = a;
+var arrprime = [];
 for( var i=1; i<=number; i++){
     var counter = 0;
     for(var j=1; j<=i; j++){
@@ -49,7 +50,8 @@ for( var i=1; i<=number; i++){
         }
     }
     if(counter == 2){
-        console.log(i);
+        arrprime.push(i);
+        //console.log(i);
         n++;
     }
     if(n ==a){
@@ -59,6 +61,9 @@ for( var i=1; i<=number; i++){
         number++;
     }
 }
+
+
+    return arrprime;
 
 }
 
